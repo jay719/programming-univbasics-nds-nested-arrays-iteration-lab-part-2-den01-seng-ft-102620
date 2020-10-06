@@ -7,5 +7,8 @@ while row_index<src.count do
   while element_index< src[row_index].count 
   minimum_value= src[row_index][element_index].min
   end
+  element_index+=1
 end
+row+=1
 end
+minimum_value
